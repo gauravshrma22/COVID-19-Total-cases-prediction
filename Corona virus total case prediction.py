@@ -42,6 +42,8 @@ plt.xlabel('No of days')
 plt.ylabel('Total Cases')
 plt.show()
 
+#Predicting the Linear Regression Results
 lin_reg.predict([[120]])
 
+#Predicting the Polynomial Regression Results
 lin_reg_2.predict(poly_reg.fit_transform([[192]]))
